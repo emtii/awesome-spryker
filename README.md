@@ -1,3 +1,5 @@
+<img src="https://academy.spryker.com/resources/ui/images/logo.png" alt="Spryker" title="Spryker" align="right" height="100"/>
+
 # Awesome Spryker
 [Twitter][11] - [Facebook][12] - [Instagram][13] - [YouTube][17] - [LinkedIn][14] - [Xing][15]
 
@@ -15,7 +17,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
   - [Development](#development)
   - [DevOps](#devops)
 - [Useful Resources](#useful-resources)
-- [Good Reads](#good-views-and-reads)
+- [Good Views and Reads](#good-views-and-reads)
   - [Videos](#videos)
   - [Reads](#reads)
 - [Communities and Meetups](#communities-and-meetups)
