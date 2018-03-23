@@ -1,5 +1,5 @@
 # Awesome Spryker
-[Twitter][11] - [Facebook][12] - [Instagram][13] - [LinkedIn][14] - [Xing][15]
+[Twitter][11] - [Facebook][12] - [Instagram][13] - [YouTube][17] - [LinkedIn][14] - [Xing][15]
 
 > A curated list of awesome bookmarks, modules, tutorials, blog posts, videos and other cool resources from the [Spryker](https://github.com/spryker) ecosystem.
 
@@ -32,34 +32,37 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 > -- LAO-TZU, Tao Te Ching
  
 ### Get in touch
-- [Forum][2]
-- [Support Issue Tracker][3]
+- [Forum][2] - Forum based on Discuss.
+- [Support Issue Tracker][3] - Open Ticket System based on Github.
 
 ### Command Line Interface
-- [Code Generator for Modules][7]
+- [Code Generator for Modules][7] - Creation of Boilerplate in a nutshell.
 
 ### Development
-- [Hello World Module][6]
+- [Reference vagrant repository for Spryker][20] - Start local development here.
+- [Hello World Module][6] - Understand how to add a simple new module.
 
 ### DevOps
 #### Docker / Container
-TODO
+- [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21]
+- [Deploy Docker][19] - Docker Stack pre-built by Spryker.
 
 ## Useful Resources
-- [SOLID][4]
-- [Twelve Factor App][5]
+- [SOLID][4] - You want to understand this.
+- [Twelve Factor App][5] - You want to respect this.
+- [Open Code][18] - Thats why we can evaluate, but not use.
 
 ## Good Views and Reads
 ### Videos
 TODO
 
 ### Reads
-- [How to Smoothly Release Split Repositories][10]
+- [How to Smoothly Release Split Repositories][10] - Nice insights in git sub tree.
 
 ## Communities and Meetups
 ### Germany
-- [Usergroup Munich][8]
-- [Usergroup Karlsruhe][9]
+- [Usergroup Munich][8] - User Group in munich.
+- [Usergroup Karlsruhe][9] - User Group in Karlsruhe.
 
 
 [1]:https://academy.spryker.com/understanding_spryker/understanding_spryker.html
@@ -77,3 +80,9 @@ TODO
 [13]:https://www.instagram.com/spryker/
 [14]:https://www.linkedin.com/company/spryker-systems-gmbh/
 [15]:https://www.xing.com/companies/sprykersystemsgmbh
+[16]:https://github.com/claranet/spryker-base
+[17]:https://www.youtube.com/channel/UC6lVOEbqXxUh0W5FMTvlPDQ
+[18]:https://blog.spryker.com/open-code
+[19]:https://github.com/spryker-eco/deploy-docker
+[20]:https://github.com/spryker/devvm
+[21]:https://github.com/claranet
