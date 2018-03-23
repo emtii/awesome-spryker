@@ -33,6 +33,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [spryker][28] - Main account.
 - [spryker-sdk][26] - Lib and Helpers for Developers.
 - [spryker-eco][27] - Contains a lot of third party modules.
+- [spryker-shop][30] - Representations of B2C and B2B E-Commerce Platforms.
 
 ## Where to start
 > A journey of a thousand miles must begin with a single step.
@@ -107,3 +108,4 @@ TODO
 [27]:https://github.com/spryker-eco
 [28]:https://github.com/spryker
 [29]:https://github.com/dantleech
+[30]:https://github.com/spryker-shop
