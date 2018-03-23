@@ -11,6 +11,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 ## Content
 - [What is Spryker?](#what-is-spryker)
+- [Spryker Github Acounts](#github-accounts)
 - [Where to start?](#where-to-start)
   - [Get in touch with Spryker](#get-in-touch)
   - [Command Line Interface](#command-line-interface)
@@ -28,12 +29,18 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 > 
 > -- [Understanding Spryker Commerce OS][1]
 
+## Github Accounts
+- [spryker][28] - Main account.
+- [spryker-sdk][26] - Lib and Helpers for Developers.
+- [spryker-eco][27] - Contains a lot of third party modules.
+
 ## Where to start
 > A journey of a thousand miles must begin with a single step.
 >
 > -- LAO-TZU, Tao Te Ching
  
 ### Get in touch
+- [Academy][22] - Open Academy, includes some Cookbooks and Tutorials.
 - [Forum][2] - Forum based on Discuss.
 - [Support Issue Tracker][3] - Open Ticket System based on Github.
 
@@ -42,11 +49,14 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 ### Development
 - [Reference vagrant repository for Spryker][20] - Start local development here.
+- [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
 - [Hello World Module][6] - Understand how to add a simple new module.
+- [State Machine Cookbook][23] - They do it right, they know, how to handle states and transitions.
+- [Spryker Fixtures][25] - Helper for fixtures made by [@dantleech][29].
 
 ### DevOps
 #### Docker / Container
-- [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21]
+- [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
 - [Deploy Docker][19] - Docker Stack pre-built by Spryker.
 
 ## Useful Resources
@@ -65,6 +75,7 @@ TODO
 ### Germany
 - [Usergroup Munich][8] - User Group in munich.
 - [Usergroup Karlsruhe][9] - User Group in Karlsruhe.
+
 
 
 [1]:https://academy.spryker.com/understanding_spryker/understanding_spryker.html
@@ -88,3 +99,11 @@ TODO
 [19]:https://github.com/spryker-eco/deploy-docker
 [20]:https://github.com/spryker/devvm
 [21]:https://github.com/claranet
+[22]:https://academy.spryker.com/
+[23]:https://academy.spryker.com/developing_with_spryker/development_concepts/state_machine_cookbook/state_machine_cookbook.html
+[24]:https://github.com/project-a/idea-php-spryker-plugin
+[25]:https://github.com/dantleech/spryker-fixtures
+[26]:https://github.com/spryker-sdk
+[27]:https://github.com/spryker-eco
+[28]:https://github.com/spryker
+[29]:https://github.com/dantleech
