@@ -25,7 +25,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
   - [Germany](#germany)
 
 ## What is Spryker
-> Spryker is a Commerce Operating System that provides the end-to-end functionality needed to create a fully-functional commercial online presence for any entity in need of a modular, high-performing and scalable web presence.
+> Spryker is a Commerce Operating System that provides the end-to-end functionality needed to create a fully-functional commercial online presence for any entity in need of a modular, high-performing and scalable web presence. There is a [Spryker Feature List][31] available which gives a good first overview about what to expect.
 > 
 > -- [Understanding Spryker Commerce OS][1]
 
@@ -39,11 +39,12 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 > A journey of a thousand miles must begin with a single step.
 >
 > -- LAO-TZU, Tao Te Ching
- 
+
 ### Get in touch
 - [Academy][22] - Open Academy, includes some Cookbooks and Tutorials.
 - [Forum][2] - Forum based on Discuss.
 - [Support Issue Tracker][3] - Open Ticket System based on Github.
+- [FAQ][32] - Official Frequently Asked Questions Hub.
 
 ### Command Line Interface
 - [Code Generator for Modules][7] - Creation of Boilerplate in a nutshell.
@@ -109,3 +110,5 @@ TODO
 [28]:https://github.com/spryker
 [29]:https://github.com/dantleech
 [30]:https://github.com/spryker-shop
+[31]:https://academy.spryker.com/understanding_spryker/feature_list.html
+[32]:https://academy.spryker.com/understanding_spryker/faq.html
