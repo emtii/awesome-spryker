@@ -16,11 +16,16 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
   - [Get in touch with Spryker](#get-in-touch)
   - [Command Line Interface](#command-line-interface)
   - [Development](#development)
+    - [Code](#code)
+    - [Tooling](#tooling)
   - [DevOps](#devops)
+    - [Local Development](#local-development)
+    - [Docker / Container](#docker-/-container)
 - [Useful Resources](#useful-resources)
 - [Good Views and Reads](#good-views-and-reads)
   - [Videos](#videos)
-  - [Reads](#reads)
+  - [Blogs](#blogs)
+  - [Stories](#stories)
 - [Communities and Meetups](#communities-and-meetups)
   - [Germany](#germany)
 
@@ -50,28 +55,37 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Code Generator for Modules][7] - Creation of Boilerplate in a nutshell.
 
 ### Development
-- [Reference vagrant repository for Spryker][20] - Start local development here.
-- [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
+#### Code
 - [Hello World Module][6] - Understand how to add a simple new module.
-- [State Machine Cookbook][23] - They do it right, they know, how to handle states and transitions.
 - [Spryker Fixtures][25] - Helper for fixtures made by [@dantleech][29].
 
+#### Tooling
+- [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
+- [Debugging with Xdebug][34]
+
 ### DevOps
+#### Local Development
+- [Reference vagrant repository for Spryker][20] - Start local development here.
+
 #### Docker / Container
 - [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
 - [Deploy Docker][19] - Docker Stack pre-built by Spryker.
 
 ## Useful Resources
-- [SOLID][4] - You want to understand this.
+- [SOLID][4] - You want to understand this. More useful stuff can be found [here][33].
 - [Twelve Factor App][5] - You want to respect this.
 - [Open Code][18] - Thats why we can evaluate, but not use.
 
-## Good Views and Reads
+## Good Videos, Blogs and Stories
 ### Videos
-TODO
+- [Spryker commerce framework in a nutshell][36]
 
-### Reads
+### Blogs
+- [Tech Blog on Medium][35] - Looks like its a deprecated blog, but still interesting content there.
+
+### Stories
 - [How to Smoothly Release Split Repositories][10] - Nice insights in git sub tree.
+- [State Machine Cookbook][23] - They do it right, they know, how to handle states and transitions.
 
 ## Communities and Meetups
 ### Germany
@@ -112,3 +126,7 @@ TODO
 [30]:https://github.com/spryker-shop
 [31]:https://academy.spryker.com/understanding_spryker/feature_list.html
 [32]:https://academy.spryker.com/understanding_spryker/faq.html
+[33]:https://github.com/spryker/solid-devtalks
+[34]:https://academy.spryker.com/getting_started/debugging/debugging_setup.html
+[35]:https://tech.spryker.com/
+[36]:https://www.youtube.com/watch?v=S1OF5zQF1Gw
