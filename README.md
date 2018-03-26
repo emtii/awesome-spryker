@@ -71,6 +71,9 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
 - [Deploy Docker][19] - Docker Stack pre-built by Spryker.
 
+#### Performance
+- [Load Test from 2016][37] - Quite old but the only official announced load test so f
+
 ## Useful Resources
 - [SOLID][4] - You want to understand this. More useful stuff can be found [here][33].
 - [Twelve Factor App][5] - You want to respect this.
@@ -78,7 +81,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 ## Good Videos, Blogs and Stories
 ### Videos
-- [Spryker commerce framework in a nutshell][36]
+- [Spryker commerce framework in a nutshell][36] - Fabian explains Spryker at code.talks 2016 commerce special. 
 
 ### Blogs
 - [Tech Blog on Medium][35] - Looks like its a deprecated blog, but still interesting content there.
@@ -130,3 +133,4 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [34]:https://academy.spryker.com/getting_started/debugging/debugging_setup.html
 [35]:https://tech.spryker.com/
 [36]:https://www.youtube.com/watch?v=S1OF5zQF1Gw
+[37]:https://tech.spryker.com/spryker-performance-load-test-6b91d03e9a02
