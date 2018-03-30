@@ -21,6 +21,13 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
   - [DevOps](#devops)
     - [Local Development](#local-development)
     - [Docker / Container](#docker-/-container)
+  - [Modules](#modules)
+    - [CMS](#cms)
+    - [Marketing](#marketing)
+    - [Connectors](#connectors)
+    - [Payment](#payment)
+    - [Products](#products)
+    - [CDN](#cdn)
 - [Useful Resources](#useful-resources)
 - [Good Views and Reads](#good-views-and-reads)
   - [Slides](#slides)
@@ -40,7 +47,10 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [spryker-sdk][26] - Lib and Helpers for Developers.
 - [spryker-eco][27] - Contains a lot of third party modules.
 - [spryker-shop][30] - Representations of B2C and B2B E-Commerce Platforms.
-- [fond-of][42] - They published some interesting spryker modules (MIT).
+- [spryker-feature][54] - Contains features.
+- [spryker-projects][55] - For internal use only, I think.
+- [spryker-showcase][56] - For internal use only, I think.
+- [spryker-middleware][57] - Abstracted Middleware.
 
 ## Where to start
 > A journey of a thousand miles must begin with a single step.
@@ -55,6 +65,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 ### Command Line Interface
 - [Code Generator for Modules][7] - Creation of Boilerplate in a nutshell.
+- [Set of helper scripts][43] - Helps in debugging of tests in VM by [@narsov][44].
 
 ### Development
 #### Code
@@ -63,11 +74,33 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 #### Tooling
 - [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
-- [Debugging with Xdebug][34]
+- [Debugging with Xdebug][34] - Quite useful tutorial for xdebuf setup within sprykers pre-built VM.
 
 ### DevOps
 #### Local Development
 - [Reference vagrant repository for Spryker][20] - Start local development here.
+
+### Modules
+#### CMS
+- [Contentful][42] - Contentful Integration.
+- [Contact Form][48] - Contanct Form Integration.
+
+#### Marketing
+- [Google Tag Manager][47] - Google Tag Manager Integration.
+
+#### Connectors
+- [elastic.io][45] - Spryker component für elastc.io platform.
+
+#### Payment
+- [Zero Paynent][50] - Quite old, but good examle of how to implement zero payments.
+- [Prepayment][46] -  Prepayment Integration including bank account stuff.
+- [Refund][51] - Refund Integration.
+
+#### Products
+- [Minimal Quantity][49] - Integration for minimal quantity.
+
+#### CDN
+- [Cloudinary][52] - Cloudinary Integration.
 
 #### Docker / Container
 - [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
@@ -93,6 +126,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 ### Blogs
 - [Tech Blog on Medium][35] - Looks like its a deprecated blog, but still interesting content there.
+- [Static Analysis][53] - Shopsys, Spryker & Sylius under Static Analysis.
 
 ### Stories
 - [How to Smoothly Release Split Repositories][10] - Nice insights in git sub tree.
@@ -146,4 +180,19 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [39]:https://www.slideshare.net/FabianWesner/spryker-hackathon-q1-2016
 [40]:https://www.slideshare.net/AboutYouGmbH/marcel-hild-spryker-ecommerce-framework-als-alternative-zu-traditioneller-shopsoftware-codetalks-2015
 [41]:https://github.com/fond-of/spryker-docker
-[42]:https://github.com/fond-of
+[42]:https://github.com/fond-of/spryker-contentful
+[43]:https://github.com/marsov/sprykerhelperscripts
+[44]:https://github.com/marsov
+[45]:https://github.com/elasticio/spryker-component
+[46]:https://github.com/fond-of/spryker-google-tagmanager
+[47]:https://github.com/fond-of/spryker-google-tagmanager
+[48]:https://github.com/fond-of/spryker-contact
+[49]:https://github.com/fond-of/spryker-availability
+[50]:https://github.com/project-a/spryker-zero-payment
+[51]:https://github.com/project-a/spryker-refund
+[52]:https://github.com/inviqa/cloudinary-spryker
+[53]:https://www.tomasvotruba.cz/blog/2017/08/28/shopsys-spriker-and-sylius-under-static-analysis/
+[54]:https://github.com/spryker-feature
+[55]:https://github.com/spryker-projects
+[56]:https://github.com/spryker-showcase
+[57]:https://github.com/spryker-middleware
