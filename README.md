@@ -23,6 +23,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
     - [Docker / Container](#docker-/-container)
 - [Useful Resources](#useful-resources)
 - [Good Views and Reads](#good-views-and-reads)
+  - [Slides](#slides)
   - [Videos](#videos)
   - [Blogs](#blogs)
   - [Stories](#stories)
@@ -39,6 +40,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [spryker-sdk][26] - Lib and Helpers for Developers.
 - [spryker-eco][27] - Contains a lot of third party modules.
 - [spryker-shop][30] - Representations of B2C and B2B E-Commerce Platforms.
+- [fond-of][42] - They published some interesting spryker modules (MIT).
 
 ## Where to start
 > A journey of a thousand miles must begin with a single step.
@@ -70,6 +72,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 #### Docker / Container
 - [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
 - [Deploy Docker][19] - Docker Stack pre-built by Spryker.
+- [Fond of Docker Stack][41] - Docker Stack pre-built by [@fond-of][42].
 
 #### Performance
 - [Load Test from 2016][37] - Quite old but the only official announced load test so f
@@ -80,6 +83,11 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Open Code][18] - Thats why we can evaluate, but not use.
 
 ## Good Videos, Blogs and Stories
+### Slides
+- [How to implement a truly modular ecommerce platform][38] - On the example of Spryker at code.talks commerce special 2017.
+- [Spryker Hackathon Q1 2016][39] - 48 Slides Bird's eye view.
+- [E-Commerce Frameworks are a real option][40] - Marcel Hild from About You explained advantages of Spryker at code.talks 2015.
+
 ### Videos
 - [Spryker commerce framework in a nutshell][36] - Fabian explains Spryker at code.talks 2016 commerce special. 
 
@@ -92,7 +100,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 ## Communities and Meetups
 ### Germany
-- [Usergroup Munich][8] - User Group in munich.
+- [Usergroup Munich][8] - User Group in Munich.
 - [Usergroup Karlsruhe][9] - User Group in Karlsruhe.
 
 
@@ -134,3 +142,8 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [35]:https://tech.spryker.com/
 [36]:https://www.youtube.com/watch?v=S1OF5zQF1Gw
 [37]:https://tech.spryker.com/spryker-performance-load-test-6b91d03e9a02
+[38]:https://www.slideshare.net/FabianWesner/how-to-implement-a-truly-modular-ecommerce-platform-on-the-example-of-spryker-at-codetalks-commerce-special-2017
+[39]:https://www.slideshare.net/FabianWesner/spryker-hackathon-q1-2016
+[40]:https://www.slideshare.net/AboutYouGmbH/marcel-hild-spryker-ecommerce-framework-als-alternative-zu-traditioneller-shopsoftware-codetalks-2015
+[41]:https://github.com/fond-of/spryker-docker
+[42]:https://github.com/fond-of
