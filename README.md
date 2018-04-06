@@ -184,7 +184,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [43]:https://github.com/marsov/sprykerhelperscripts
 [44]:https://github.com/marsov
 [45]:https://github.com/elasticio/spryker-component
-[46]:https://github.com/fond-of/spryker-google-tagmanager
+[46]:https://github.com/fond-of/spryker-prepayment
 [47]:https://github.com/fond-of/spryker-google-tagmanager
 [48]:https://github.com/fond-of/spryker-contact
 [49]:https://github.com/fond-of/spryker-availability
