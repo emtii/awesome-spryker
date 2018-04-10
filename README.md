@@ -74,7 +74,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 #### Tooling
 - [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
-- [Debugging with Xdebug][34] - Quite useful tutorial for xdebuf setup within sprykers pre-built VM.
+- [Debugging with Xdebug][34] - Quite useful tutorial for xdebug setup within sprykers pre-built VM.
 
 ### DevOps
 #### Local Development
@@ -108,7 +108,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Fond of Docker Stack][41] - Docker Stack pre-built by [@fond-of][42].
 
 #### Performance
-- [Load Test from 2016][37] - Quite old but the only official announced load test so f
+- [Load Test from 2016][37] - Quite old but the only official announced load test so far.
 
 ## Useful Resources
 - [SOLID][4] - You want to understand this. More useful stuff can be found [here][33].
