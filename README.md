@@ -9,7 +9,7 @@ The creators and maintainers of this list do not receive and should not receive 
 
 If you see a link here that is not (any longer) a good fit, you can fix it by submitting a pull request to improve this file. Thank you!
 
-## Content
+## Content 
 - [What is Spryker?](#what-is-spryker)
 - [Spryker Github Acounts](#github-accounts)
 - [Where to start?](#where-to-start)
