@@ -244,3 +244,14 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [55]:https://github.com/spryker-projects
 [56]:https://github.com/spryker-showcase
 [57]:https://github.com/spryker-middleware
+[58]:https://www.reddit.com/r/PHP/comments/53su62/does_anyone_have_experiences_with_spryker/
+[59]:https://github.com/fond-of/spryker-google-search
+[60]:https://github.com/fond-of/spryker-stock-api
+[61]:https://github.com/fond-of/spryker-active-campaign
+[62]:https://github.com/fond-of/spryker-open-graph
+[63]:https://github.com/fond-of/spryker-feed
+[64]:https://github.com/fond-of/spryker-availability-alert
+[65]:https://github.com/fond-of/spryker-product-api
+[66]:https://github.com/fond-of/spryker-api-auth
+[67]:https://github.com/fond-of/spryker-smtp-mail
+[68]:https://now.spryker.com/spryker-goes-usergroup
