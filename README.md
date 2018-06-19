@@ -18,6 +18,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
   - [Development](#development)
     - [Code](#code)
     - [Tooling](#tooling)
+    - [Setup](#setup-local-development-environment-(with-spryker-shop/b2c-suite-and-devvm-v2.0.0))
   - [DevOps](#devops)
     - [Local Development](#local-development)
     - [Docker / Container](#docker-/-container)
@@ -26,11 +27,14 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
     - [Marketing](#marketing)
     - [Connectors](#connectors)
     - [Payment](#payment)
-    - [Products](#products)
+    - [Features](#features)
     - [CDN](#cdn)
+    - [API Extensions](#api)
+    - [Import / Export](#import-/-export)
 - [Useful Resources](#useful-resources)
 - [Good Views and Reads](#good-views-and-reads)
   - [Slides](#slides)
+  - [Reddit](#reddit)
   - [Videos](#videos)
   - [Blogs](#blogs)
   - [Stories](#stories)
@@ -76,17 +80,54 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
 - [Debugging with Xdebug][34] - Quite useful tutorial for xdebug setup within sprykers pre-built VM.
 
+#### Setup local development environment (with spryker-shop/b2c-suite and devvm v2.0.0)
+
+**Setup**
+
+1. cd into your ~/Workspace
+2. git clone git@github.com:spryker/devvm.git spryker-devvm-b2c-suite
+3. cd ./spryker-devvm-b2c-suite && git checkout tags/2.0.0
+4. VM_PROJECT=suite-b2c SPRYKER_REPOSITORY="git@github.com:spryker-shop/suite-b2c.git" vagrant up
+6. ./project on host machine contains suite-b2c files now, mounted to /data/shop/development/current in vagrant box
+7. vagrant ssh
+8. composer global require hirak/prestissimo
+9. ulimit -n 65535
+9. cd /data/shop/development/current
+11. composer install
+12. vendor/bin/install --exclude=demodata (remove exclude, to install demodata)
+
+**Stack**
+
+| Note | Url | Default Credentials | Note |
+| --- | --- | --- | --- |
+| YVES Frontend | http://www.de.suite-b2c.local | - | - |
+| ZED Backend | http://zed.de.suite-b2c.local | admin@spryker.com // change123 | - |
+| Rabbit MQ | http://zed.de.suite-b2c.local:15672 | admin / mate20mg | - |
+| Mailcatcher | http://zed.de.suite-b2c.local:1080 | - | - |
+| Redis | http://zed.de.suite-b2c.local:10009 | - | (NOGUI) You can explore Redis with e.g. Redis Desktop Manager |
+| PostgreSQL | http://zed.de.suite-b2c.local:5432 | development / mate20mg | - |
+| MySQL Server | http://zed.de.suite-b2c.local:3306 | development / mate20mg | - |
+| Jenkins | http://www.de.suite-b2c.local:10007 | - | - |
+
 ### DevOps
 #### Local Development
 - [Reference vagrant repository for Spryker][20] - Start local development here.
 
+### Docker / Container
+- [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
+- [Deploy Docker][19] - Docker Stack pre-built by Spryker.
+- [Fond of Docker Stack][41] - Docker Stack pre-built by [@fond-of][42].
+
 ### Modules
 #### CMS
 - [Contentful][42] - Contentful Integration.
-- [Contact Form][48] - Contanct Form Integration.
-
+- [Contact Form][48] - A simple contact form for spryker.
+                       
 #### Marketing
 - [Google Tag Manager][47] - Google Tag Manager Integration.
+- [Google Search][59] - Google Search Integration.
+- [Active Campaign][61] - Active Campaign.
+- [Open Graph][62] - Open Graph Integration.
 
 #### Connectors
 - [elastic.io][45] - Spryker component für elastc.io platform.
@@ -96,19 +137,21 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Prepayment][46] -  Prepayment Integration including bank account stuff.
 - [Refund][51] - Refund Integration.
 
-#### Products
+#### Features
 - [Minimal Quantity][49] - Integration for minimal quantity.
+- [Availability Alert][64] - Availability alert.
+- [SMTP Mail][67] - Extends the default Spryker mail module with smtp functionality.
 
 #### CDN
 - [Cloudinary][52] - Cloudinary Integration.
 
-#### Docker / Container
-- [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
-- [Deploy Docker][19] - Docker Stack pre-built by Spryker.
-- [Fond of Docker Stack][41] - Docker Stack pre-built by [@fond-of][42].
+#### API
+- [Stock API Module][60] - REST API for stock updates.
+- [Extend ProductApi Module][65] - ProductApi extends the Base Spryker Product Api Module.
+- [Zed API Auth Module][66] - Authorization Module.
 
-#### Performance
-- [Load Test from 2016][37] - Quite old but the only official announced load test so far.
+### Import / Export
+- [Availability Feed][63] - Creates an Availability feed.
 
 ## Useful Resources
 - [SOLID][4] - You want to understand this. More useful stuff can be found [here][33].
@@ -121,12 +164,16 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Spryker Hackathon Q1 2016][39] - 48 Slides Bird's eye view.
 - [E-Commerce Frameworks are a real option][40] - Marcel Hild from About You explained advantages of Spryker at code.talks 2015.
 
+### Reddit
+- [Does anyone have experiences with spryker (commerce framework)?][58] - Interesting conversation between CTO Fabian and some devs, give some insights about ideas behind patterns used in spryker.  
+
 ### Videos
 - [Spryker commerce framework in a nutshell][36] - Fabian explains Spryker at code.talks 2016 commerce special. 
 
 ### Blogs
 - [Tech Blog on Medium][35] - Looks like its a deprecated blog, but still interesting content there.
 - [Static Analysis][53] - Shopsys, Spryker & Sylius under Static Analysis.
+- [Load Test from 2016][37] - Quite old but the only official announced load test so far.
 
 ### Stories
 - [How to Smoothly Release Split Repositories][10] - Nice insights in git sub tree.
@@ -136,6 +183,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 ### Germany
 - [Usergroup Munich][8] - User Group in Munich.
 - [Usergroup Karlsruhe][9] - User Group in Karlsruhe.
+- [Usergroup Cologne][68] - User Group in Cologne.
 
 
 
@@ -184,7 +232,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [43]:https://github.com/marsov/sprykerhelperscripts
 [44]:https://github.com/marsov
 [45]:https://github.com/elasticio/spryker-component
-[46]:https://github.com/fond-of/spryker-google-tagmanager
+[46]:https://github.com/fond-of/spryker-prepayment
 [47]:https://github.com/fond-of/spryker-google-tagmanager
 [48]:https://github.com/fond-of/spryker-contact
 [49]:https://github.com/fond-of/spryker-availability
@@ -196,3 +244,14 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [55]:https://github.com/spryker-projects
 [56]:https://github.com/spryker-showcase
 [57]:https://github.com/spryker-middleware
+[58]:https://www.reddit.com/r/PHP/comments/53su62/does_anyone_have_experiences_with_spryker/
+[59]:https://github.com/fond-of/spryker-google-search
+[60]:https://github.com/fond-of/spryker-stock-api
+[61]:https://github.com/fond-of/spryker-active-campaign
+[62]:https://github.com/fond-of/spryker-open-graph
+[63]:https://github.com/fond-of/spryker-feed
+[64]:https://github.com/fond-of/spryker-availability-alert
+[65]:https://github.com/fond-of/spryker-product-api
+[66]:https://github.com/fond-of/spryker-api-auth
+[67]:https://github.com/fond-of/spryker-smtp-mail
+[68]:https://now.spryker.com/spryker-goes-usergroup
