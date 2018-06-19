@@ -78,36 +78,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 #### Tooling
 - [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
-- [Debugging with Xdebug][34] - Quite useful tutorial for xdebug setup within sprykers pre-built VM.
-
-#### Setup local development environment (with spryker-shop/b2c-suite and devvm v2.0.0)
-
-**Setup**
-
-1. cd into your ~/Workspace
-2. git clone git@github.com:spryker/devvm.git spryker-devvm-b2c-suite
-3. cd ./spryker-devvm-b2c-suite && git checkout tags/2.0.0
-4. VM_PROJECT=suite-b2c SPRYKER_REPOSITORY="git@github.com:spryker-shop/suite-b2c.git" vagrant up
-6. ./project on host machine contains suite-b2c files now, mounted to /data/shop/development/current in vagrant box
-7. vagrant ssh
-8. composer global require hirak/prestissimo
-9. ulimit -n 65535
-9. cd /data/shop/development/current
-11. composer install
-12. vendor/bin/install --exclude=demodata (remove exclude, to install demodata)
-
-**Stack**
-
-| Note | Url | Default Credentials | Note |
-| --- | --- | --- | --- |
-| YVES Frontend | http://www.de.suite-b2c.local | - | - |
-| ZED Backend | http://zed.de.suite-b2c.local | admin@spryker.com // change123 | - |
-| Rabbit MQ | http://zed.de.suite-b2c.local:15672 | admin / mate20mg | - |
-| Mailcatcher | http://zed.de.suite-b2c.local:1080 | - | - |
-| Redis | http://zed.de.suite-b2c.local:10009 | - | (NOGUI) You can explore Redis with e.g. Redis Desktop Manager |
-| PostgreSQL | http://zed.de.suite-b2c.local:5432 | development / mate20mg | - |
-| MySQL Server | http://zed.de.suite-b2c.local:3306 | development / mate20mg | - |
-| Jenkins | http://www.de.suite-b2c.local:10007 | - | - |
+- [Debugging with Xdebug][34] - Quite useful tutorial for xdebuf setup within sprykers pre-built VM.
 
 ### DevOps
 #### Local Development
