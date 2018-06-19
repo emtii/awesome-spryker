@@ -80,21 +80,20 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
 - [Debugging with Xdebug][34] - Quite useful tutorial for xdebuf setup within sprykers pre-built VM.
 
-#### Setup local development environment (with spryker-shop/b2c-suite and devvm v2.0.0)
+#### Setup local development environment (with spryker-shop/suite v1.0 and devvm v2.0.0)
 
 **Setup**
 
 1. cd into your ~/Workspace
-2. git clone git@github.com:spryker/devvm.git spryker-devvm-b2c-suite
-3. cd ./spryker-devvm-b2c-suite && git checkout tags/2.0.0
-4. VM_PROJECT=suite-b2c SPRYKER_REPOSITORY="git@github.com:spryker-shop/suite-b2c.git" vagrant up
-6. ./project on host machine contains suite-b2c files now, mounted to /data/shop/development/current in vagrant box
-7. vagrant ssh
-8. composer global require hirak/prestissimo
-9. ulimit -n 65535
-9. cd /data/shop/development/current
-11. composer install
-12. vendor/bin/install --exclude=demodata (remove exclude, to install demodata)
+2. git clone -b v2.0.0 git@github.com:spryker/devvm.git spryker-devvm-suite
+3. VM_PROJECT=suite SPRYKER_REPOSITORY="git@github.com:spryker-shop/suite.git" SPRYKER_BRANCH="1.0" vagrant up
+4. ./project on host machine contains suite-b2c files now, mounted to /data/shop/development/current in vagrant box
+5. vagrant ssh
+6. ulimit -n 65535
+7. composer global require hirak/prestissimo
+8. cd /data/shop/development/current
+9. composer install
+10. vendor/bin/install --exclude=demodata (remove exclude, to install demodata)
 
 **Stack**
 
