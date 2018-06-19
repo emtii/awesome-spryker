@@ -150,7 +150,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Extend ProductApi Module][65] - ProductApi extends the Base Spryker Product Api Module.
 - [Zed API Auth Module][66] - Authorization Module.
 
-### Import / Export
+#### Import / Export
 - [Availability Feed][63] - Creates an Availability feed.
 
 ## Useful Resources
