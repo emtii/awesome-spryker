@@ -99,14 +99,14 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 
 | Note | Url | Default Credentials | Note |
 | --- | --- | --- | --- |
-| YVES Frontend | http://www.de.suite-b2c.local | - | - |
-| ZED Backend | http://zed.de.suite-b2c.local | admin@spryker.com // change123 | - |
-| Rabbit MQ | http://zed.de.suite-b2c.local:15672 | admin / mate20mg | - |
-| Mailcatcher | http://zed.de.suite-b2c.local:1080 | - | - |
-| Redis | http://zed.de.suite-b2c.local:10009 | - | (NOGUI) You can explore Redis with e.g. Redis Desktop Manager |
-| PostgreSQL | http://zed.de.suite-b2c.local:5432 | development / mate20mg | - |
-| MySQL Server | http://zed.de.suite-b2c.local:3306 | development / mate20mg | - |
-| Jenkins | http://www.de.suite-b2c.local:10007 | - | - |
+| YVES Frontend | http://www.de.suite.local | - | - |
+| ZED Backend | http://zed.de.suite.local | admin@spryker.com // change123 | - |
+| Rabbit MQ | http://zed.de.suite.local:15672 | admin / mate20mg | - |
+| Mailcatcher | http://zed.de.suite.local:1080 | - | - |
+| Redis | http://zed.de.suite.local:10009 | - | (NOGUI) You can explore Redis with e.g. Redis Desktop Manager |
+| PostgreSQL | http://zed.de.suite.local:5432 | development / mate20mg | - |
+| MySQL Server | http://zed.de.suite.local:3306 | development / mate20mg | - |
+| Jenkins | http://www.de.suite.local:10007 | - | - |
 
 ### DevOps
 #### Local Development
