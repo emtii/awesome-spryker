@@ -85,7 +85,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 **Setup**
 
 1. cd into your ~/Workspace
-2. git clone -b v2.0.0 git@github.com:spryker/devvm.git spryker-devvm-suite
+2. git clone -b v2.1.0 git@github.com:spryker/devvm.git spryker-devvm-suite
 3. VM_PROJECT=suite SPRYKER_REPOSITORY="git@github.com:spryker-shop/suite.git" SPRYKER_BRANCH="1.0" vagrant up
 4. ./project on host machine contains suite-b2c files now, mounted to /data/shop/development/current in vagrant box
 5. vagrant ssh
