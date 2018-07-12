@@ -18,21 +18,27 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
   - [Development](#development)
     - [Code](#code)
     - [Tooling](#tooling)
-    - [Setup](#setup-local-development-environment-(with-spryker-shop/b2c-suite-and-devvm-v2.0.0))
+    - [Setup](#setup-local-development-environment)
   - [DevOps](#devops)
     - [Local Development](#local-development)
-    - [Docker / Container](#docker-/-container)
+    - [Docker / Container](#docker--container)
   - [Modules](#modules)
-    - [CMS](#cms)
-    - [Marketing](#marketing)
-    - [Connectors](#connectors)
-    - [Payment](#payment)
-    - [Features](#features)
+    - [API](#api)
     - [CDN](#cdn)
-    - [API Extensions](#api)
-    - [Import / Export](#import-/-export)
+    - [CMS](#cms)
+    - [Connectors](#connectors)
+    - [E-Mails / Newsletter Tooling](#e-mails--newsletter-tooling)
+    - [Basket / Checkout related features](#basket--checkout-related-features)
+    - [Business Intelligence](#business-intelligence)
+    - [Import / Export](#import--export)
+    - [Marketing Tooling / Markups](#marketing-tooling--markups)
+    - [Monitoring](#monitoring)
+    - [Payment](#payment)
+    - [Product Information Management (PIM)](#product-information-management-pim)
+    - [Risk Management](#risk-management)
+    - [Tracking](#tracking)
 - [Useful Resources](#useful-resources)
-- [Good Views and Reads](#good-videos,-blogs-and-stories)
+- [Good Views and Reads](#good-videos-blogs-and-stories)
   - [Slides](#slides)
   - [Reddit](#reddit)
   - [Videos](#videos)
@@ -80,14 +86,14 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [PHP Storm Plugin][24] - Basic Plugin for PHP Storm especially for Sprykers special annotations.
 - [Debugging with Xdebug][34] - Quite useful tutorial for xdebuf setup within sprykers pre-built VM.
 
-#### Setup local development environment (with spryker-shop/suite v1.0 and devvm v2.0.0)
+#### Setup local development environment
 
 **Setup**
 
 1. cd into your ~/Workspace
 2. git clone -b v2.1.0 git@github.com:spryker/devvm.git spryker-devvm-suite
 3. VM_PROJECT=suite SPRYKER_REPOSITORY="git@github.com:spryker-shop/suite.git" SPRYKER_BRANCH="1.0" vagrant up
-4. ./project on host machine contains suite-b2c files now, mounted to /data/shop/development/current in vagrant box
+4. ./project on host machine contains suite files now, mounted to /data/shop/development/current in vagrant box
 5. vagrant ssh
 6. ulimit -n 65535
 7. composer global require hirak/prestissimo
@@ -119,39 +125,102 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Docker Shop Suite Stack][70] - Docker Shop Suite Stack pre-built by [@spryker][69].
 
 ### Modules
-#### CMS
-- [Contentful][42] - Contentful Integration.
-- [Contact Form][48] - A simple contact form for spryker.
-                       
-#### Marketing
-- [Google Tag Manager][47] - Google Tag Manager Integration.
-- [Google Search][59] - Google Search Integration.
-- [Active Campaign][61] - Active Campaign.
-- [Open Graph][62] - Open Graph Integration.
-
-#### Connectors
-- [elastic.io][45] - Spryker component für elastc.io platform.
-
-#### Payment
-- [Zero Paynent][50] - Quite old, but good examle of how to implement zero payments.
-- [Prepayment][46] -  Prepayment Integration including bank account stuff.
-- [Refund][51] - Refund Integration.
-
-#### Features
-- [Minimal Quantity][49] - Integration for minimal quantity.
-- [Availability Alert][64] - Availability alert.
-- [SMTP Mail][67] - Extends the default Spryker mail module with smtp functionality.
+#### API
+| Module Link | Short Description |
+|---|---|
+| [Stock API Module][60] | REST API for stock updates. |
+| [Extend ProductApi Module][65] | ProductApi extends the Base Spryker Product Api Module. |
+| [Zed API Auth Module][66] | Authorization Module. |
 
 #### CDN
-- [Cloudinary][52] - Cloudinary Integration.
+| Module Link | Short Description |
+|---|---|
+| [Cloudinary][52] | Cloudinary Integration. |
 
-#### API
-- [Stock API Module][60] - REST API for stock updates.
-- [Extend ProductApi Module][65] - ProductApi extends the Base Spryker Product Api Module.
-- [Zed API Auth Module][66] - Authorization Module.
+#### CMS
+| Module Link | Short Description |
+|---|---|
+| [Contentful][42] | Contentful Integration. |
+| [Contact Form][48] | A simple contact form for spryker. |
+
+#### Connectors
+| Module Link | Short Description |
+|---|---|
+| [elastic.io][45] | Spryker component für elastc.io platform. |
+
+#### E-Mails / Newsletter Tooling
+| Module Link | Short Description |
+|---|---|
+| [SMTP Mail][67] | Extends the default Spryker mail module with smtp functionality. |
+| [Optivo][90] | Optivo Newsletter Integration. |
+
+#### Basket / Checkout related features
+| Module Link | Short Description |
+|---|---|
+| [Minimal Quantity][49] | Integration for minimal quantity. |
+| [Availability Alert][64] | Availability alert. |
+
+#### Business Intelligence
+| Module Link | Short Description |
+|---|---|
+| [Minubo][79] | Minubo Business Intelligence (Commerce Intelligence) Implementation. |
 
 #### Import / Export
-- [Availability Feed][63] - Creates an Availability feed.
+| Module Link | Short Description |
+|---|---|
+| [Availability Feed][63] | Creates an Availability feed. |
+
+#### Marketing Tooling / Markups
+| Module Link | Short Description |
+|---|---|
+| [Google Search][59] | Google Search Integration. |
+| [Active Campaign][61] | Active Campaign. |
+| [Open Graph][62] | Open Graph Integration. |
+
+#### Monitoring
+| Module Link | Short Description |
+|---|---|
+| [Tideways][80] | Tideways Implementation. |
+| [New Relic][81] | New Relice Implementation. |
+| [Loggly][88] | Loggly Implementation. |
+
+#### Payment
+| Module Link | Short Description |
+|---|---|
+| [Zero Paynent][50] | Quite old, but good examle of how to implement zero payments. |
+| [Prepayment][46] | Prepayment Integration including bank account stuff. |
+| [Refund][51] | Refund Integration. |
+| [Computop][72] | Computop PSP Integration. |
+| [Computop API][73] | Computop API. |
+| [Payone][74] | Payone PSP Integration. |
+| [Amazon Pay][75] | Amazon Payment Integration. |
+| [After Pay][78] | After Pay PSP Integration. |
+| [Ratepay][85] | Ratepay Integration. |
+| [Payolution][86] | Payolution Integration. |
+| [Heidelpay][87] | Heidelpay PSP Integration. |
+| [Braintree][89] | Braintree PSP Integration. |
+| [Billpay][92] | Billpay Integration. |
+| [Klarna][93] | Klarna Integration. |
+
+#### Product Information Management (PIM)
+| Module Link | Short Description |
+|---|---|
+| [Akeneo][74] | Basic Integration of Akeneo PIM. |
+| [Akeneo Middleware Connector][76] | Middleware Connector of Akeneo PIM. |
+
+#### Risk Management
+| Module Link | Short Description |
+|---|---|
+| [Arvato Risk Management][91] | Arvato Risk Management Service Integration. |
+
+#### Tracking
+| Module Link | Short Description |
+|---|---|
+| [Econda][70] | Basic Integration of Econda Tracking. |
+| [Google Tag Manager][47] | Google Tag Manager Integration. |
+| [Fact Finder Web Components][82] | Fact Finder Web Components. |
+| [Fact Finder SDK][83] | Spryker SDK Implementation of Fact Finder. |
+| [Fact Finder][84] | Fact Finder Integration. |
 
 ## Useful Resources
 - [SOLID][4] - You want to understand this. More useful stuff can be found [here][33].
@@ -257,3 +326,26 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [68]:https://now.spryker.com/spryker-goes-usergroup
 [69]:https://github.com/spryker
 [70]:https://github.com/spryker/docker-shop-suite
+[71]:https://github.com/spryker-eco/econda
+[72]:https://github.com/spryker-eco/computop
+[73]:https://github.com/spryker-eco/computop-api
+[74]:https://github.com/spryker-eco/akeneo-pim
+[75]:https://github.com/spryker-eco/payone
+[76]:https://github.com/spryker-eco/akeneo-pim-middleware-connector
+[77]:https://github.com/spryker-eco/amazon-pay
+[78]:https://github.com/spryker-eco/after-pay
+[79]:https://github.com/spryker-eco/minubo
+[80]:https://github.com/spryker-eco/tideways
+[81]:https://github.com/spryker-eco/new-relic
+[82]:https://github.com/spryker-eco/fact-finder-web-components
+[83]:https://github.com/spryker-eco/fact-finder-sdk
+[84]:https://github.com/spryker-eco/fact-finder
+[85]:https://github.com/spryker-eco/ratepay
+[86]:https://github.com/spryker-eco/payolution
+[87]:https://github.com/spryker-eco/heidelpay
+[88]:https://github.com/spryker-eco/loggly
+[89]:https://github.com/spryker-eco/braintree
+[90]:https://github.com/spryker-eco/optivo
+[91]:https://github.com/spryker-eco/arvato-rss
+[92]:https://github.com/spryker-eco/billpay
+[93]:https://github.com/spryker-eco/klarna
