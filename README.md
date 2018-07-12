@@ -116,6 +116,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 - [Claranet Docker Image][16] - Comprehensive docker image made by [@claranet][21].
 - [Deploy Docker][19] - Docker Stack pre-built by Spryker.
 - [Fond of Docker Stack][41] - Docker Stack pre-built by [@fond-of][42].
+- [Docker Shop Suite Stack][70] - Docker Shop Suite Stack pre-built by [@spryker][69].
 
 ### Modules
 #### CMS
@@ -254,3 +255,5 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [66]:https://github.com/fond-of/spryker-api-auth
 [67]:https://github.com/fond-of/spryker-smtp-mail
 [68]:https://now.spryker.com/spryker-goes-usergroup
+[69]:https://github.com/spryker
+[70]:https://github.com/spryker/docker-shop-suite
