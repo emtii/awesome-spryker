@@ -207,6 +207,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 |---|---|
 | [Akeneo][74] | Basic Integration of Akeneo PIM. |
 | [Akeneo Middleware Connector][76] | Middleware Connector of Akeneo PIM. |
+| [Akeneo Export Connector Bundle][94] | Akeneo Product Exporter with localized attribute option labels |
 
 #### Risk Management
 | Module Link | Short Description |
@@ -349,3 +350,4 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [91]:https://github.com/spryker-eco/arvato-rss
 [92]:https://github.com/spryker-eco/billpay
 [93]:https://github.com/spryker-eco/klarna
+[94]:https://github.com/fond-of/akeneo-export-connector-bundle
