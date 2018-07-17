@@ -153,6 +153,7 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 |---|---|
 | [SMTP Mail][67] | Extends the default Spryker mail module with smtp functionality. |
 | [Optivo][90] | Optivo Newsletter Integration. |
+| [Inxmail][95] | Inxmail Integration. |
 
 #### Basket / Checkout related features
 | Module Link | Short Description |
@@ -201,6 +202,8 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 | [Braintree][89] | Braintree PSP Integration. |
 | [Billpay][92] | Billpay Integration. |
 | [Klarna][93] | Klarna Integration. |
+| [Adyen API][96] | Adyen API Integration. |
+| [Adyen][97] | Adyen Integration. |
 
 #### Product Information Management (PIM)
 | Module Link | Short Description |
@@ -351,3 +354,6 @@ If you see a link here that is not (any longer) a good fit, you can fix it by su
 [92]:https://github.com/spryker-eco/billpay
 [93]:https://github.com/spryker-eco/klarna
 [94]:https://github.com/fond-of/akeneo-export-connector-bundle
+[95]:https://github.com/spryker-eco/inxmail
+[96]:https://github.com/spryker-eco/adyen-api
+[97]:https://github.com/spryker-eco/adyen
